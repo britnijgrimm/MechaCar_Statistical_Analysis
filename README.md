@@ -15,3 +15,13 @@ Linear regression testing tests the null hypothesis that the slope of the linear
 *Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?*
 
 At first glance, we are provided with some exceptional data that can provide insight to influences on miles per gallon. However, there are other factors that influence MPG that are not provided in this dataset. We are missing factors such as highway versus city driving, and fuel type. Are these vehicles running of fossil fuels? Are the electric or possibly hybrid vehicles?  This is a great start, but this model does not provide enough data to effectively and thoroughly predict the MPG of MechaCar prototypes.
+
+## Summary Statistics on Suspension Coils
+*The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?*
+
+![Figure 2](Resources/psi_summ.png)
+
+Across all lots combines, variance of the suspension coils is 62.29 which meets the MechaCar design specifications. However, when we drill down to analyze each lot individually, manufacturing Lot 3 exceeds this variance limitation with a variance of 170.29.
+
+![Figure 3](Resources/psi_summ_by_lot.png)
+
