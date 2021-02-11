@@ -21,7 +21,17 @@ At first glance, we are provided with some exceptional data that can provide ins
 
 ![Figure 2](Resources/psi_summ.png)
 
-Across all lots combines, variance of the suspension coils is 62.29 which meets the MechaCar design specifications. However, when we drill down to analyze each lot individually, manufacturing Lot 3 exceeds this variance limitation with a variance of 170.29.
+Across all lots combined, variance of the suspension coils is 62.29 which meets the MechaCar design specifications. However, when we drill down to analyze each lot individually, manufacturing Lot 3 exceeds this variance limitation with a variance of 170.29.
 
 ![Figure 3](Resources/psi_summ_by_lot.png)
+
+## T-Tests on Suspension Coils
+When performing a t-test to conclude whether the PSI across all manufacturing lots differs statistically from the overall population mean, our calculations yielded a p-value of 1.00. Assuming a level of significance of .05, we conclude that the sample and population means are statistically similar.
+
+![Figure 4](Resources/ttest_1.png)
+
+We achieved similar results testing when performing t-tests for each individual lot against the population mean. For each lot, our calculations provided a p-value of 1.00, and with a level of significance of .05, we have concluded that the sample means from each lot are statically similar to the population mean.
+
+![Figure 5](Resources/ttest_2.png)
+
 
