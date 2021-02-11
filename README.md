@@ -34,4 +34,14 @@ We achieved similar results testing when performing t-tests for each individual 
 
 ![Figure 5](Resources/ttest_2.png)
 
+## Study Design: MechaCar vs Competition
 
+In order to measure how MechaCar stands up to the competition we will measure vehicle cost, safety rating, as well as city and highway fuel efficiency. We will randomly select three competitors and collect the sample data from similar sized samples for each.
+
+The null hypothesis that we will be testing is that there is no statistical difference between MechaCar and its competitors.
+
+Thus, our alternative hypothesis is that there is a statistical difference between MechaCar and competitors. 
+
+In order to test our hypothesis we will employ the ANOVA test to determine whether there is a statistically significant difference of our multiple sample means. We have selected this method as a streamlined approach to performing a t-test analysis on a larger number of samples.
+
+In order to run this statistical test our analytics team will require sample data from the competitors to analyze against our MechaCar sample. We will collect data on safety rating, fuel efficiency, and cost. We will conduct our analysis and also consider the results based on vehicle class. This data points will allow our analysts to directly compare how our MechaCar vehicles stack up against competitors in these key areas we believe are most important to consumers. 
